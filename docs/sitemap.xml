@@ -3,26 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://quotar.github.io/Dundundun/posts/</loc>
     <lastmod>2020-03-08T11:50:19+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/posts/</loc>
+    <loc>https://quotar.github.io/Dundundun/posts/ssh_advance/</loc>
     <lastmod>2020-03-08T11:50:19+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/posts/ssh_advance/</loc>
+    <loc>https://quotar.github.io/Dundundun/</loc>
     <lastmod>2020-03-08T11:50:19+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://quotar.github.io/Dundundun/categories/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://quotar.github.io/Dundundun/tags/</loc>
   </url>
   
 </urlset>

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on DUN~DUN~DUN</title>
-    <link>http://example.org/posts/</link>
-    <description>Recent content in Posts on DUN~DUN~DUN</description>
+    <title>Posts on 吨吨吨~</title>
+    <link>https://quotar.github.io/Dundundun/posts/</link>
+    <description>Recent content in Posts on 吨吨吨~</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sun, 08 Mar 2020 11:50:19 +0800</lastBuildDate>
     
-	<atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://quotar.github.io/Dundundun/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>ssh隧道与代理</title>
-      <link>http://example.org/posts/ssh_advance/</link>
+      <link>https://quotar.github.io/Dundundun/posts/ssh_advance/</link>
       <pubDate>Sun, 08 Mar 2020 11:50:19 +0800</pubDate>
       
-      <guid>http://example.org/posts/ssh_advance/</guid>
+      <guid>https://quotar.github.io/Dundundun/posts/ssh_advance/</guid>
       <description>ssh代理和ssh隧道的区别：  ssh隧道：是利用ssh本身的加密传输，在两台机器间打通隧道，让两台机器各自局域网内其他服务走22端口，所以实际上可以看作是开代理让别的服务用
 ssh代理：在两台机器间已有的端口上，建立ssh隧道，实际上是走代理
  ssh 代理(ssh走代理) ssh 隧道/tunnel+ ssh config 实现快速跳板机
