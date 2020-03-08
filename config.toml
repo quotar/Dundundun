@@ -1,0 +1,14 @@
+baseURL = "http://example.org/"
+#languageCode = "en-us"
+languageCode = "zh-CN"
+title = "DUN~DUN~DUN"
+theme = "maupassant"
+
+[author]
+  name = "吨吨吨"
+
+[params]
+  author = "吨吨吨"
+  subtitle = "专注于linux、虚拟化、NAS、网络、Go语言(golang)、游戏"
+  keywords = "linux、虚拟化、NAS、网络、Go语言(golang)、游戏"
+  description = "专注于IT互联网，包括但不限于互联网"

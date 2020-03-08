@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on DUN~DUN~DUN</title>
+    <link>http://example.org/posts/</link>
+    <description>Recent content in Posts on DUN~DUN~DUN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 08 Mar 2020 11:50:19 +0800</lastBuildDate>
+    
+	<atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ssh隧道与代理</title>
+      <link>http://example.org/posts/ssh_advance/</link>
+      <pubDate>Sun, 08 Mar 2020 11:50:19 +0800</pubDate>
+      
+      <guid>http://example.org/posts/ssh_advance/</guid>
+      <description>ssh代理和ssh隧道的区别：  ssh隧道：是利用ssh本身的加密传输，在两台机器间打通隧道，让两台机器各自局域网内其他服务走22端口，所以实际上可以看作是开代理让别的服务用
+ssh代理：在两台机器间已有的端口上，建立ssh隧道，实际上是走代理
+ ssh 代理(ssh走代理) ssh 隧道/tunnel+ ssh config 实现快速跳板机
+直接命令方式隧道 ssh -p23000 thor-uc2-was-master-01 -o ProxyCommand=&amp;quot;ssh -W %h:%p vechain@thor-uc2-was-proxy-01 -p23000&amp;rdquo; 注：thor-uc2-was-proxy-01 上的/etc/hosts 里要有thor-uc2-was-master-01 的IP 记录
+～/.ssh/config 文件  Host thor-uc2-was-master-* ProxyCommand ssh -W %h:%p vechain@thor-uc2-was-proxy-01 -p23000
+ ssh 隧道（ssh开代理）： 本地隧道 将10.0.1.2上的3306端口 映射到10.0.1.1上的9906端口，也可以理解为将10.0.1.1的9066端口转发到10.0.1.2上的3306端口 ssh -gfNL 9066:10.0.1.2:3306 root@10.0.1.2 -L 建立ssh隧道 -N 不执行远程命令，仅仅用在端口转发上 -f 强制将此次ssh回话放到后台运行 -g 不光监听 127.0.0.1 的9066端口，监听所有本地IP的9066端口
+远程隧道（内网穿透） ssh -fNR remoteip:remoteport:localip:localport user@remoteip 将本地内网监听的端口，转发到外网机器上
+动态隧道 通过 -D 参数，我们可以实现一个简单的代理服务器。
+ ssh -D [bind_address:]port root@服务器ip</description>
+    </item>
+    
+  </channel>
+</rss>
